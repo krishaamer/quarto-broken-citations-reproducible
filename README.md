@@ -1,5 +1,7 @@
 # quarto-broken-citations-reproducible
 
+For: https://github.com/quarto-dev/quarto-cli/issues/6046
+
 ### Bug description
 
 Hi, I'm using Quarto + VSCode + Docusaurus to write a thesis and after upgrading to latest version citations stopped working in Docusaurus. The [@somequotation] are not rendering anymore but just remain unchanged in the output. Rendering to PDF still works fine. Please advise.
