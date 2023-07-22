@@ -5,16 +5,9 @@ Docusaurus 3 alpha has been released https://github.com/facebook/docusaurus/disc
 
 Rendering MDX inside .qmd files breaks, being rendered as plain text not as components.
 
-<img width="1036" alt="examples" src="https://github.com/quarto-dev/quarto-cli/assets/54409/a64db34b-3652-44f8-8d3c-a207379b5a8d">
-
 ### Steps to reproduce
 
-Install the package.json with yarn and you should see the problems when rendering Docusaurus with quarto preview or inside VSCode. Here's Docusaurus 3 install documentation in case of any issues: https://docusaurus.io/community/canary
-
-Here's the broken citations repo on Docusaurus 2.4: https://github.com/krishaamer/quarto-broken-citations-reproducible
-
-And in this the branch the broken Docusaurus 3 alpha integration. I also tested the canary from 21/07/2023 and it's the same as the alpha.
-https://github.com/krishaamer/quarto-broken-citations-reproducible/tree/docusaurus-3
+Install the package.json with yarn and you should see the problems when rendering Docusaurus with quarto preview or inside VSCode. Here's Docusaurus 3 install documentation in case of any issues: https://docusaurus.io/community/canary. I also tested the canary from 21/07/2023 and it's the same as the alpha.
 
 ### Expected behavior
 
@@ -24,7 +17,7 @@ Imports, code and citations should be transformed and rendered.
 
 Nothing is transformed or rendered. Imports, code, and citations are displayed as play text.
 
-### Your environment
+### Environment
 
 ```
 MacOS Ventura 13.4 (22F66)
