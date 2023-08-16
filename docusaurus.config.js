@@ -46,7 +46,7 @@ const config = {
             type: "doc",
             docId: "broken",
             position: "left",
-            label: "Broken Citations",
+            label: "Broken Mathplotlib",
           },
         ],
       },
