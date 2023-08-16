@@ -7,7 +7,7 @@ jupyter: python3
 
 ## Broken Mathplotlib {#broken-mathplotlib}
 
-```python
+``` python
 # importing the modules
 import numpy as np
 import matplotlib.pyplot as plt
